@@ -1,0 +1,124 @@
+/* Import Google fonts - poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e3eb;
+}
+.container{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background: rgb(207, 200, 200);
+    box-shadow: 0 5px 10px rgba(28, 34, 26, 0.05);
+}
+#display {
+    height: 80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: black;
+}
+.buttons{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.buttons button{
+   padding: 10px;
+   border-radius: 6px;
+   border: none;
+   font-size: 20px;
+   cursor: pointer;
+   background-color: #eee;
+}
+.buttons button:active{
+    transform: scale(0.99);
+}
+.oper{
+    color: #737d86;
+}
+.buttons button.clar{
+    color: #fff;
+    background-color: #f44336;
+}
+.buttons button.dlet{
+    color: #f44336;
+}
+.buttons button.pls{
+    color: #fff;
+    background-color: #31a935;
+}
+.buttons button.eq{
+    color: #fff;
+    background-color: #2196f3;
+}
+
+/*      CALCULATOR 2 (youtube) */
+
+/* Import Google fonts - poppins */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e3eb;
+}
+.container{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.display {
+    height: 80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: black;
+}
+.buttons{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.buttons button{
+   padding: 10px;
+   border-radius: 6px;
+   border: none;
+   font-size: 20px;
+   cursor: pointer;
+   background-color: #eee;
+}
+.buttons button:active{
+    transform: scale(0.99);
+}
+.operator{
+    color: #2f9fff;
+} */
